@@ -42,3 +42,6 @@ Feel free to reach out directly on GitHub or through my social channels. I'm alw
 
 Together, let's create something remarkable!
 
+Bo Pennington
+Bo@Symio.ai
+
