@@ -1,0 +1,27 @@
+# Drop this file into .github/workflows/ of any repo to connect it to the guardian.
+# No modification needed — fully portable.
+
+name: Notify Guardian on Failure
+
+on:
+  workflow_run:
+    workflows: ["*"]
+    types: [completed]
+
+jobs:
+  notify:
+    if: github.event.workflow_run.conclusion == 'failure'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dispatch to Guardian
+        env:
+          GH_TOKEN: ${{ secrets.GUARDIAN_PAT || secrets.WORKFLOW_PAT }}
+        run: |
+          gh api repos/${{ vars.GUARDIAN_REPO || 'OrionDevPartners/ci-pr-bug-lifecycle-guardian' }}/dispatches \
+            -f event_type=workflow_failure \
+            -f "client_payload[repo]=${{ github.repository }}" \
+            -f "client_payload[run_id]=${{ github.event.workflow_run.id }}" \
+            -f "client_payload[workflow_name]=${{ github.event.workflow_run.name }}" \
+            -f "client_payload[branch]=${{ github.event.workflow_run.head_branch }}" \
+            -f "client_payload[sha]=${{ github.event.workflow_run.head_sha }}" \
+            -f "client_payload[conclusion]=${{ github.event.workflow_run.conclusion }}"
