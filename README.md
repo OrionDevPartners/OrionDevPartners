@@ -1,8 +1,24 @@
+<p align="center">
+  <img src="./assets/portfolio-banner.svg" alt="OrionDevPartners portfolio banner" width="100%" />
+</p>
+
 ## OrionDevPartners
 
 OrionDevPartners is the public-facing portfolio layer for a broader innovation corpus spanning artificial intelligence, biomedical systems, engineering, advanced physics, and high-complexity automation.
 
 This page is intentionally written at the problem-and-progress level only. It does **not** publish operating recipes, implementation details, or proprietary system logic.
+
+## Why This Page Exists
+
+This profile is designed to give technical employers, strategic contributors, and investors a fast way to understand:
+
+- where the deepest work is concentrated
+- which domains are closest to production readiness
+- which initiatives are worth discussing for hiring, partnership, or funding
+
+<p align="center">
+  <img src="./assets/domain-portfolio.svg" alt="Animated portfolio chart by domain" width="100%" />
+</p>
 
 ## Portfolio by Domain
 
@@ -38,6 +54,7 @@ The OrionDevPartners portfolio is focused on high-value problems where technical
 
 I welcome conversations with:
 
+- hiring teams seeking high-agency technical leadership across difficult, interdisciplinary programs
 - contributors working in AI, biomedical systems, robotics, physics, and advanced engineering
 - operators who can help move ambitious programs toward deployment
 - seed-stage and equity partners interested in disciplined, high-upside technical ventures

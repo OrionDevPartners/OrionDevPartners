@@ -1,0 +1,82 @@
+<svg width="1200" height="620" viewBox="0 0 1200 620" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Domain portfolio intensity and completion</title>
+  <desc id="desc">Animated chart inferring relative work and code intensity by domain, paired with estimated completion percentages for the OrionDevPartners portfolio.</desc>
+  <defs>
+    <linearGradient id="barA" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4FD1C5"/>
+      <stop offset="100%" stop-color="#14B8A6"/>
+    </linearGradient>
+    <linearGradient id="barB" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+    </linearGradient>
+    <linearGradient id="barC" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="barD" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F472B6"/>
+      <stop offset="100%" stop-color="#DB2777"/>
+    </linearGradient>
+    <linearGradient id="barE" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FBBF24"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="620" rx="24" fill="#08101C"/>
+  <text x="52" y="68" fill="#E5F0FF" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">Portfolio Workload & Completion by Domain</text>
+  <text x="52" y="102" fill="#9FB6D7" font-family="Segoe UI, Arial, sans-serif" font-size="18">Visual inference of relative work/code concentration paired with maturity signals.</text>
+
+  <text x="52" y="150" fill="#89A2C6" font-family="Segoe UI, Arial, sans-serif" font-size="14">Domain</text>
+  <text x="450" y="150" fill="#89A2C6" font-family="Segoe UI, Arial, sans-serif" font-size="14">Estimated work/code intensity</text>
+  <text x="1050" y="150" fill="#89A2C6" font-family="Segoe UI, Arial, sans-serif" font-size="14">Completion</text>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="52" y="212" fill="#E5F0FF" font-size="22" font-weight="600">AI Systems &amp; Automation</text>
+    <rect x="450" y="184" width="620" height="26" rx="13" fill="#122032"/>
+    <rect x="450" y="184" width="558" height="26" rx="13" fill="url(#barA)" filter="url(#softGlow)">
+      <animate attributeName="width" values="520;558;538;558" dur="6s" repeatCount="indefinite"/>
+    </rect>
+    <text x="1090" y="203" text-anchor="end" fill="#DFFCF7" font-size="21" font-weight="700">82%</text>
+
+    <text x="52" y="288" fill="#E5F0FF" font-size="22" font-weight="600">Biomedical Innovation</text>
+    <rect x="450" y="260" width="620" height="26" rx="13" fill="#122032"/>
+    <rect x="450" y="260" width="496" height="26" rx="13" fill="url(#barB)" filter="url(#softGlow)">
+      <animate attributeName="width" values="466;496;478;496" dur="6.5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="1090" y="279" text-anchor="end" fill="#E6F2FF" font-size="21" font-weight="700">71%</text>
+
+    <text x="52" y="364" fill="#E5F0FF" font-size="22" font-weight="600">Engineering Platforms</text>
+    <rect x="450" y="336" width="620" height="26" rx="13" fill="#122032"/>
+    <rect x="450" y="336" width="520" height="26" rx="13" fill="url(#barC)" filter="url(#softGlow)">
+      <animate attributeName="width" values="488;520;502;520" dur="5.8s" repeatCount="indefinite"/>
+    </rect>
+    <text x="1090" y="355" text-anchor="end" fill="#F3EFFF" font-size="21" font-weight="700">76%</text>
+
+    <text x="52" y="440" fill="#E5F0FF" font-size="22" font-weight="600">Advanced Physics Applications</text>
+    <rect x="450" y="412" width="620" height="26" rx="13" fill="#122032"/>
+    <rect x="450" y="412" width="406" height="26" rx="13" fill="url(#barD)" filter="url(#softGlow)">
+      <animate attributeName="width" values="374;406;392;406" dur="7s" repeatCount="indefinite"/>
+    </rect>
+    <text x="1090" y="431" text-anchor="end" fill="#FFE4F1" font-size="21" font-weight="700">58%</text>
+
+    <text x="52" y="516" fill="#E5F0FF" font-size="22" font-weight="600">Sustainability &amp; Optimization</text>
+    <rect x="450" y="488" width="620" height="26" rx="13" fill="#122032"/>
+    <rect x="450" y="488" width="468" height="26" rx="13" fill="url(#barE)" filter="url(#softGlow)">
+      <animate attributeName="width" values="440;468;452;468" dur="6.2s" repeatCount="indefinite"/>
+    </rect>
+    <text x="1090" y="507" text-anchor="end" fill="#FFF5D6" font-size="21" font-weight="700">68%</text>
+  </g>
+
+  <g>
+    <text x="52" y="580" fill="#7F98BC" font-family="Segoe UI, Arial, sans-serif" font-size="15">Interpretation: longer bars indicate inferred concentration of portfolio effort and code depth, while percentages indicate estimated maturity.</text>
+  </g>
+</svg>
