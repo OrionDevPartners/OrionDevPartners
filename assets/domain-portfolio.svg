@@ -77,6 +77,6 @@
   </g>
 
   <g>
-    <text x="52" y="580" fill="#B9CAE3" font-family="Segoe UI, Arial, sans-serif" font-size="16">Interpretation: longer bars indicate inferred concentration of portfolio effort and code depth, while percentages indicate estimated maturity.</text>
+    <text x="52" y="580" fill="#B9CAE3" font-family="Segoe UI, Arial, sans-serif" font-size="16">Interpretation: bar length represents relative effort/code intensity only; completion is shown separately by the percentage labels.</text>
   </g>
 </svg>
