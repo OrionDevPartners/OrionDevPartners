@@ -34,7 +34,7 @@ This profile is designed to give technical employers, strategic contributors, an
 
 This repository is the public portfolio and communications hub for OrionDevPartners.
 
-### `OrionDevPartners/OrionDevPartners`
+### Profile Repository
 **Role:** Executive portfolio and communications hub  
 **Public-facing readiness:** 95% (illustrative estimate)  
 **Why it matters:** It is the primary public artifact presenting the OrionDevPartners portfolio, focus areas, and collaboration pathways.
