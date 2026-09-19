@@ -30,13 +30,13 @@ This profile is designed to give technical employers, strategic contributors, an
 | Advanced Physics Applications | Exploring frontier-grade models and applications with long-term strategic value | Extreme | 58% |
 | Sustainability & Optimization | Improving efficiency, resilience, and resource use across complex systems | High | 68% |
 
-## Public Lineage Assessment
+## Illustrative Public Lineage Assessment
 
-Based on the public lineage currently visible on this GitHub account, the most production-ready repository is:
+Based on the public lineage currently visible on this GitHub account, and using public completeness, presentation readiness, and maintained profile quality as the evaluation basis, the most production-ready repository is:
 
 ### 1. `OrionDevPartners/OrionDevPartners`
 **Role:** Executive portfolio and communications hub  
-**Completion:** 95%  
+**Completion:** 95% (illustrative public-facing readiness estimate)  
 **Why it ranks first:** It is the most complete public artifact in the current GitHub lineage and is the clearest production-ready representation of the OrionDevPartners portfolio.
 
 Additional technical repositories and deeper implementation work can be discussed selectively during diligence, collaboration review, or partner conversations.
