@@ -47,4 +47,4 @@ I welcome conversations with:
 For contributor inquiries, strategic partnerships, or seed/equity discussions, contact:
 
 **Bo Pennington**  
-**bo@orionpartners.com**
+[**bo@orionpartners.com**](mailto:bo@orionpartners.com)
