@@ -17,7 +17,7 @@ This profile is designed to give technical employers, strategic contributors, an
 - which initiatives are worth discussing for hiring, partnership, or funding
 
 <p align="center">
-  <img src="./assets/domain-portfolio.svg" alt="" width="100%" />
+  <img src="./assets/domain-portfolio.svg" alt="Animated chart of relative effort and code intensity by domain; the detailed completion percentages are listed in the table below." width="100%" />
 </p>
 
 ## Portfolio by Domain
