@@ -43,35 +43,35 @@
     <text x="52" y="212" fill="#E5F0FF" font-size="22" font-weight="600">AI Systems &amp; Automation</text>
     <rect x="450" y="184" width="620" height="26" rx="13" fill="#122032"/>
     <rect x="450" y="184" width="558" height="26" rx="13" fill="url(#barA)" filter="url(#softGlow)">
-      <animate attributeName="width" values="520;558;538;558" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.82;1;0.82" dur="6s" repeatCount="indefinite"/>
     </rect>
     <text x="1090" y="203" text-anchor="end" fill="#DFFCF7" font-size="21" font-weight="700">82%</text>
 
     <text x="52" y="288" fill="#E5F0FF" font-size="22" font-weight="600">Biomedical Innovation</text>
     <rect x="450" y="260" width="620" height="26" rx="13" fill="#122032"/>
     <rect x="450" y="260" width="496" height="26" rx="13" fill="url(#barB)" filter="url(#softGlow)">
-      <animate attributeName="width" values="466;496;478;496" dur="6.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.82;1;0.82" dur="6.5s" repeatCount="indefinite"/>
     </rect>
     <text x="1090" y="279" text-anchor="end" fill="#E6F2FF" font-size="21" font-weight="700">71%</text>
 
     <text x="52" y="364" fill="#E5F0FF" font-size="22" font-weight="600">Engineering Platforms</text>
     <rect x="450" y="336" width="620" height="26" rx="13" fill="#122032"/>
     <rect x="450" y="336" width="520" height="26" rx="13" fill="url(#barC)" filter="url(#softGlow)">
-      <animate attributeName="width" values="488;520;502;520" dur="5.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.82;1;0.82" dur="5.8s" repeatCount="indefinite"/>
     </rect>
     <text x="1090" y="355" text-anchor="end" fill="#F3EFFF" font-size="21" font-weight="700">76%</text>
 
     <text x="52" y="440" fill="#E5F0FF" font-size="22" font-weight="600">Advanced Physics Applications</text>
     <rect x="450" y="412" width="620" height="26" rx="13" fill="#122032"/>
     <rect x="450" y="412" width="406" height="26" rx="13" fill="url(#barD)" filter="url(#softGlow)">
-      <animate attributeName="width" values="374;406;392;406" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.82;1;0.82" dur="7s" repeatCount="indefinite"/>
     </rect>
     <text x="1090" y="431" text-anchor="end" fill="#FFE4F1" font-size="21" font-weight="700">58%</text>
 
     <text x="52" y="516" fill="#E5F0FF" font-size="22" font-weight="600">Sustainability &amp; Optimization</text>
     <rect x="450" y="488" width="620" height="26" rx="13" fill="#122032"/>
     <rect x="450" y="488" width="468" height="26" rx="13" fill="url(#barE)" filter="url(#softGlow)">
-      <animate attributeName="width" values="440;468;452;468" dur="6.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.82;1;0.82" dur="6.2s" repeatCount="indefinite"/>
     </rect>
     <text x="1090" y="507" text-anchor="end" fill="#FFF5D6" font-size="21" font-weight="700">68%</text>
   </g>
