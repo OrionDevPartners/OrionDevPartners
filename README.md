@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/portfolio-banner.svg" alt="OrionDevPartners portfolio banner" width="100%" />
+  <img src="./assets/portfolio-banner.svg" alt="" width="100%" />
 </p>
 
 ## OrionDevPartners
@@ -17,7 +17,7 @@ This profile is designed to give technical employers, strategic contributors, an
 - which initiatives are worth discussing for hiring, partnership, or funding
 
 <p align="center">
-  <img src="./assets/domain-portfolio.svg" alt="Animated portfolio chart with one bar per domain where bar length shows relative effort and code intensity only, and separate labels show estimated completion: AI Systems and Automation 82%, Biomedical Innovation 71%, Engineering Platforms 76%, Advanced Physics Applications 58%, and Sustainability and Optimization 68%." width="100%" />
+  <img src="./assets/domain-portfolio.svg" alt="" width="100%" />
 </p>
 
 ## Portfolio by Domain
