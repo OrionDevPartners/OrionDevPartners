@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/portfolio-banner.svg" alt="" width="100%" />
+  <img src="./assets/portfolio-banner.svg" alt="Animated OrionDevPartners banner introducing a high-complexity technology portfolio." width="100%" />
 </p>
 
 ## OrionDevPartners
