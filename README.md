@@ -1,47 +1,69 @@
-Hello, I'm Bo! 👋
+<p align="center">
+  <img src="./assets/portfolio-banner.svg" alt="Animated OrionDevPartners banner introducing a high-complexity technology portfolio." width="100%" />
+</p>
 
-I'm an inventor and creator passionate about leveraging AI to tackle humanity's greatest challenges—especially in the fields of biomedical innovation, regenerative medicine, engineering breakthroughs, advanced physics, and transformative AI architecture.
+## OrionDevPartners
 
-🚀 What Drives Me?
+OrionDevPartners is the public-facing portfolio layer for a broader innovation corpus spanning artificial intelligence, biomedical systems, engineering, advanced physics, and high-complexity automation.
 
-Innovating for Impact: Dedicated to developing technologies that significantly enhance human health, wellness, and overall quality of life.
+This page is intentionally written at the problem-and-progress level only. It does **not** publish operating recipes, implementation details, or proprietary system logic.
 
-AI & Creativity: Focused on harnessing advanced artificial intelligence to ideate, prototype, and execute breakthrough solutions across various scientific and engineering disciplines.
+## Why This Page Exists
 
-Collaborative Excellence: Firmly believe in the power of teamwork, combining diverse expertise, creative thinking, and state-of-the-art technology.
+This profile is designed to give technical employers, strategic contributors, and investors a fast way to understand:
 
-🌟 Project Interests:
+- where the deepest work is concentrated
+- which domains are closest to production readiness
+- which initiatives are worth discussing for hiring, partnership, or funding
 
-Advanced AI-driven healthcare solutions and disease cures.
+Illustrative internal portfolio estimates used throughout this page: AI Systems and Automation 82%, Biomedical Innovation 71%, Engineering Platforms 76%, Advanced Physics Applications 58%, and Sustainability and Optimization 68%. Bar lengths in the chart represent OrionDevPartners' relative effort/code-intensity assessment, while percentages represent illustrative maturity and public-readiness estimates rather than audited metrics.
 
-Novel biomedical devices and therapeutic technologies.
+<p align="center">
+  <img src="./assets/domain-portfolio.svg" alt="Chart illustrating the portfolio estimates summarized in the preceding paragraph." width="100%" />
+</p>
 
-Cutting-edge physics and engineering applications.
+## Portfolio by Domain
 
-AI-powered optimization of complex systems and processes.
+| Domain | Problem Focus | Complexity | Estimated Completion |
+| --- | --- | --- | --- |
+| AI Systems & Automation | Reducing execution bottlenecks, scaling decision support, and improving operational leverage across technical programs | Very High | 82% |
+| Biomedical Innovation | Advancing human health outcomes through better diagnostic, therapeutic, and regenerative concepts | Very High | 71% |
+| Engineering Platforms | Turning technically difficult concepts into reliable, buildable systems with practical utility | High | 76% |
+| Advanced Physics Applications | Exploring frontier-grade models and applications with long-term strategic value | Extreme | 58% |
+| Sustainability & Optimization | Improving efficiency, resilience, and resource use across complex systems | High | 68% |
 
-Sustainability and renewable energy solutions.
+## Public Repository Status
 
-💡 Looking to Collaborate?
+This repository is the public portfolio and communications hub for OrionDevPartners.
 
-I love working with individuals and teams who:
+### Profile Repository
+**Role:** Executive portfolio and communications hub  
+**Public-facing readiness:** 95% (illustrative estimate)  
+**Why it matters:** It is the primary public artifact presenting the OrionDevPartners portfolio, focus areas, and collaboration pathways.
 
-Have expertise in biomedical engineering, AI/ML, robotics, and physics.
+Additional technical repositories and deeper implementation work can be discussed selectively during diligence, collaboration review, or partner conversations.
 
-Are passionate about leveraging technology for real-world, high-impact solutions.
+## What This Portfolio Solves
 
-Embrace innovation, creativity, and strategic problem-solving.
+The OrionDevPartners portfolio is focused on high-value problems where technical depth matters:
 
-Enjoy dynamic, intellectually stimulating projects.
+- accelerating scientific and engineering discovery
+- improving human health and regenerative outcomes
+- automating complex workflows with intelligent systems
+- translating difficult ideas into investable, execution-ready programs
 
-If you're excited about using AI to create groundbreaking advancements and make a real-world difference, let's connect!
+## Collaboration & Strategic Interest
 
-📫 Get in Touch
+I welcome conversations with:
 
-Feel free to reach out directly on GitHub or through my social channels. I'm always open to meaningful collaborations and exploring innovative ideas.
+- hiring teams seeking high-agency technical leadership across difficult, interdisciplinary programs
+- contributors working in AI, biomedical systems, robotics, physics, and advanced engineering
+- operators who can help move ambitious programs toward deployment
+- seed-stage and equity partners interested in disciplined, high-upside technical ventures
 
-Together, let's create something remarkable!
+## Contact
 
-Bo Pennington
-Bo@Symio.ai
+For contributor inquiries, strategic partnerships, or seed/equity discussions, contact:
 
+**Bo Pennington**  
+[**bo@orionpartners.com**](mailto:bo@orionpartners.com)
