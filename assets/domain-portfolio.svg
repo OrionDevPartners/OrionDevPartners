@@ -77,6 +77,6 @@
   </g>
 
   <g>
-    <text x="52" y="580" fill="#B9CAE3" font-family="Segoe UI, Arial, sans-serif" font-size="16">Interpretation: bar length shows relative effort and code intensity only; completion is shown separately in the percentage labels and README table.</text>
+    <text x="52" y="570" fill="#B9CAE3" font-family="Segoe UI, Arial, sans-serif" font-size="16">Interpretation: bar length shows relative effort and code intensity only; completion is shown separately in the percentage labels and README table.</text>
   </g>
 </svg>
