@@ -19,7 +19,7 @@ This profile is designed to give technical employers, strategic contributors, an
 Illustrative internal portfolio estimates used throughout this page: AI Systems and Automation 82%, Biomedical Innovation 71%, Engineering Platforms 76%, Advanced Physics Applications 58%, and Sustainability and Optimization 68%. Bar lengths in the chart represent OrionDevPartners' relative effort/code-intensity assessment, while percentages represent illustrative maturity and public-readiness estimates rather than audited metrics.
 
 <p align="center">
-  <img src="./assets/domain-portfolio.svg" alt="" width="100%" />
+  <img src="./assets/domain-portfolio.svg" alt="Chart illustrating the portfolio estimates summarized in the preceding paragraph." width="100%" />
 </p>
 
 ## Portfolio by Domain
