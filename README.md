@@ -40,7 +40,7 @@ I welcome conversations with:
 
 - contributors working in AI, biomedical systems, robotics, physics, and advanced engineering
 - operators who can help move ambitious programs toward deployment
-- seed-fund and equity partners interested in disciplined, high-upside technical ventures
+- seed-stage and equity partners interested in disciplined, high-upside technical ventures
 
 ## Contact
 
