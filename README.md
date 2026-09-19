@@ -16,8 +16,10 @@ This profile is designed to give technical employers, strategic contributors, an
 - which domains are closest to production readiness
 - which initiatives are worth discussing for hiring, partnership, or funding
 
+Illustrative internal portfolio estimates used throughout this page: AI Systems and Automation 82%, Biomedical Innovation 71%, Engineering Platforms 76%, Advanced Physics Applications 58%, and Sustainability and Optimization 68%. Bar lengths in the chart represent OrionDevPartners' relative effort/code-intensity assessment, while percentages represent illustrative maturity and public-readiness estimates rather than audited metrics.
+
 <p align="center">
-  <img src="./assets/domain-portfolio.svg" alt="Animated chart of relative effort and code intensity by domain; the detailed completion percentages are listed in the table below." width="100%" />
+  <img src="./assets/domain-portfolio.svg" alt="" width="100%" />
 </p>
 
 ## Portfolio by Domain
