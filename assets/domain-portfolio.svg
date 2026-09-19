@@ -32,8 +32,8 @@
   </defs>
 
   <rect width="1200" height="620" rx="24" fill="#08101C"/>
-  <text x="52" y="68" fill="#E5F0FF" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">Portfolio Workload & Completion by Domain</text>
-  <text x="52" y="102" fill="#9FB6D7" font-family="Segoe UI, Arial, sans-serif" font-size="18">Visual inference of relative work/code concentration paired with maturity signals.</text>
+  <text x="52" y="68" fill="#E5F0FF" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">Relative Effort Intensity & Completion by Domain</text>
+  <text x="52" y="102" fill="#9FB6D7" font-family="Segoe UI, Arial, sans-serif" font-size="18">Bars show inferred effort/code intensity; percentages show estimated maturity.</text>
 
   <text x="52" y="150" fill="#89A2C6" font-family="Segoe UI, Arial, sans-serif" font-size="14">Domain</text>
   <text x="450" y="150" fill="#89A2C6" font-family="Segoe UI, Arial, sans-serif" font-size="14">Estimated work/code intensity</text>
