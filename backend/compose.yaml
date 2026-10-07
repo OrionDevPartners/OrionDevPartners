@@ -1,0 +1,90 @@
+name: orion-backend-local-only
+
+services:
+  database:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: backend_local
+      POSTGRES_DB: backend_local
+      POSTGRES_HOST_AUTH_METHOD: trust # Local development only; never use in a deployed environment.
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - backend-local-postgres:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U backend_local -d backend_local"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: ["sh", "-c", "npm run migrate && npm start"]
+    environment:
+      NODE_ENV: development
+      HOST: 0.0.0.0
+      PORT: 3000
+      DATABASE_URL: postgresql://backend_local@database:5432/backend_local
+      OIDC_ISSUER: https://identity.example.invalid/
+      OIDC_AUDIENCE: replace-with-local-api-audience
+      OIDC_JWKS_URL: https://identity.example.invalid/.well-known/jwks.json
+      CORS_ORIGINS: http://localhost:3000
+      ENABLE_API_DOCS: "true"
+      WORKER_ENABLED: "false"
+      LOG_LEVEL: info
+    ports:
+      - "127.0.0.1:3000:3000"
+    depends_on:
+      database:
+        condition: service_healthy
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "node",
+          "-e",
+          "fetch('http://127.0.0.1:3000/health/ready').then(r => process.exit(r.ok ? 0 : 1)).catch(() => process.exit(1))",
+        ]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+      start_period: 15s
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  worker:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: ["npm", "run", "start:worker"]
+    environment:
+      NODE_ENV: development
+      DATABASE_URL: postgresql://backend_local@database:5432/backend_local
+      OIDC_ISSUER: https://identity.example.invalid/
+      OIDC_AUDIENCE: replace-with-local-api-audience
+      OIDC_JWKS_URL: https://identity.example.invalid/.well-known/jwks.json
+      WORKER_ENABLED: "true"
+      LOG_LEVEL: info
+    depends_on:
+      api:
+        condition: service_healthy
+    healthcheck:
+      disable: true
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+volumes:
+  backend-local-postgres:
